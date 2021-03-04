@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Justas ir Simona</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<img src="logo.png" />
+			<div class="title">
+				<div>Justas</div>
+				<div class="separator">&</div>
+				<div>Simona</div>
+			</div>
+			<div class="info call">Kviečia Jus į savo vestuves!</div>
+		</div>
+		<div class="info date">21<span class="pipe">|</span>08<span class="pipe">|</span>14</div>
+		<div class="info">Šventės pradžia - 16:00</div>
+		<div class="info place">Sodyba "Du horizontai"</div>
+		<div class="info adress">Kairionių k., Molėtų rajonas</div>
+		<div class="divider"></div>
+		<div class="info gifts">Dovanos</div>
+		<div class="info">Kviečiame prisidėti prie mūsų medaus mėnesio biudžeto</div>
+		<div class="info flowers">Gėlės</div>
+		<div class="info">Vietoj gėlių siūlome atsinešti mėgstamą gėrimą</div>
+		<div class="info flowers">Papildoma informacija</div>
+		<div class="info">Jei vestuvių dieną galios karantino apribojimai, šventė bus nukelta</div>
+		<div class="info rsvp">R.S.V.P.</div>
+		<div class="info">Iki liepos 1 d.</div>
+	</div>
+</body>
+</html>
+<style>
+	body {
+		background: url(1.png);
+  		background-repeat: no-repeat;
+    	background-size: cover;
+    	min-height: 100vh;
+    	background-position: center;
+    	display: flex;
+    	flex: 1;
+    	height: 100%;
+    	font-family: 'Newsreader', sans-serif;
+	}
+
+	img {
+	    height: 150px;
+    	margin-bottom: 25px;
+    	margin-top: 30px;
+	}
+
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin-bottom: 10px;
+	}
+
+	.content {
+		padding: 40px 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		flex: 1;
+	}
+
+	.divider {
+		height: 1px;
+    	background: black;
+    	width: 70px;
+    	margin-top: 40px;
+    	margin-bottom: 20px;
+	}
+
+	.title {
+		flex-direction: column;
+		align-items: center;
+		display: flex;
+    	font-family: 'Lora', sans-serif;
+		font-size: 60px;
+		margin-bottom: 60px;
+		letter-spacing: 14px;
+	}
+
+	.separator {
+		margin-bottom: -8px;
+		margin-top: 8px;
+		font-size: 30px;
+	}
+
+	.info {
+		font-size: 18px;
+		margin-bottom: 16px;
+    	letter-spacing: 1px;
+    	max-width: 400px;
+    	text-align: center;
+    	line-height: 30px;
+	}
+
+	.call {
+		font-size: 25px;
+    	margin-bottom: 40px;
+	}
+
+	.pipe {
+		padding: 0 14px;
+	}
+
+	.date {
+		letter-spacing: 5px;
+		font-family: 'Lora', sans-serif;
+		margin-bottom: 30px;
+		font-size: 24px;
+	}
+
+	.gifts, .flowers, .rsvp {
+		letter-spacing: 5px;
+		font-family: 'Lora', sans-serif;
+		margin-top: 30px;
+		text-transform: uppercase;	
+		font-weight: 600;
+	}
+
+
+	.place {
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-family: 'Lora', sans-serif;
+	}
+
+	@media only screen and (max-width: 600px) {
+		img {
+			margin-top: 20px;
+			height: 130px;
+		}
+
+	  	.info {
+	   		font-size: 16px;
+	  	}
+
+	  	.date {
+	  		font-size: 20px;
+	  	}
+
+	  	.call {
+		 	font-size: 20px;
+		}
+
+	  	.place {
+	  		letter-spacing: 3px;
+	  	}
+	}
+</style>
